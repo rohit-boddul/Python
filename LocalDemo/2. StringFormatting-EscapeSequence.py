@@ -20,10 +20,24 @@ print ("My home is of \t \"4BHK\"")
 print(f"Length of the land is {length_of_land} sq.ft.")
 print(f"First labour name is '{labour1}'")
 
-
-
-
 # 2. .format method
+print("Length of the land is {}".format(length_of_land))
+
+
+
+# ----------------------------------------------------------------------------------------------------------
+
+# Logging
+from loguru import logger
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - Line:%(lineno)d - %(message)s",)
+
+logging.info(f"Hello")
+logger.info(f"Hello")
+
 
 
 
