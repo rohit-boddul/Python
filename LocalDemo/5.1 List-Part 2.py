@@ -21,3 +21,60 @@ logger.info(f"new updated list is {labours}")
 value_to_be_deleted = labours.pop(-1)
 
 logger.info(f"deleted value: {value_to_be_deleted}")
+
+logger.info(f"{labours}")
+labours.append(300)
+logger.info(f"Duplicated list = {labours}")
+
+
+deleted_value_by_remove_mtd = labours.remove(300)
+logger.info(f"Newly list = {labours}")
+# ---------------------------------------------------------
+
+lord_names = ["Krishna", "Govinda", "Madhava", "Radha", "Radhama"]
+logger.info(f"Lord names = {lord_names}") 
+
+lord_names[-1] = "Radhamadhava"
+
+corrected_lord_names = lord_names[-1]
+logger.info(f"tweaked names = {lord_names}")
+# -----------------------------------------------------------------------------
+mobile = ["aple", "iphne", "samng", "jo"]
+mobile[0:4] = ["apple", "iphone", "samsung", "jio"]
+updated_mobile_list = mobile[0:4]
+
+logger.info(f"Updated mobile list = {updated_mobile_list}")
+logger.info(f"Removed the elements from the list = {updated_mobile_list.clear()}")
+
+#----------------------------- Split Method -----------------------------#
+
+api_endpoint = "https://github.com/manisnitt/myresume/blob/main/manish_resume_github.pdf"
+new_updated_api = api_endpoint.split("/")
+
+logger.info(f"Newly Updated List = {new_updated_api}")
+logger.info(f"Last element from list = {new_updated_api[-1]}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
