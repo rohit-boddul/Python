@@ -121,3 +121,15 @@ for a in range(len(lst)-1, index, -1):
     lst[a] = lst[a-1]
     lst[index] = no_to_insert
 logger.info(f"Ordered new elements are = {lst}")
+
+
+# Table using for loop
+# for var1 in range(2, 11):
+#     for var2 in range(1, 11):
+#         print(var1 * var2, end = "\t")
+#     print()
+
+for r1 in range(10, 110, 10):
+    for r2 in range(1, 11):
+        print(r1 * r2, end = "\t")
+    print()
