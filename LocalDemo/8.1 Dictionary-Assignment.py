@@ -1,7 +1,7 @@
 from loguru import logger
 
 # PROBLEM STATEMENT - 
-# Total labour cost if total days was 50, out of which Mahesh was absent for 3 gays and Jagmohan was absent for 7 days, 
+# Total labour cost if total days was 50, out of which Mahesh was absent for 3 days and Jagmohan was absent for 7 days, 
 # find out the total labour cost
 
 labour_with_cost = {"Mahesh":500, "Ramesh":400, "Mithilesh":400, "Sumesh":300, "Jagmohan":1000, "Rampyare":800}

@@ -68,7 +68,7 @@ number_to_insert = 100
 # by using built-in functions
 updated_list = list.append(number_to_insert)
 updated_list = list.sort()
-# logger.info(list)
+logger.info(list)
 
 
 # without using in built-in function --> 
@@ -88,7 +88,7 @@ list.append(None)
 logger.info(list)
 length = len(list)
 logger.info(f"Length of list = {length}")
-
+logger.info(index)
 
 for i in range (len(list)-1, index, -1):
     list[i] = list[i-1]
