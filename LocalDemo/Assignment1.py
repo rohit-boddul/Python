@@ -14,3 +14,6 @@ labour4 = "Sumesh"
 
 logger.info (f"First labour name is '{labour1}'")
 
+a= 1
+print(type(a))
+
