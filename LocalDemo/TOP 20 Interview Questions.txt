@@ -1,0 +1,62 @@
+Q1. what is dict in python?
+
+Q2. is dict mutable?
+
+Q3. can we use tuple as a key in dict?
+--> yes, only Tuple, String and Integer. we cannot keep List X in dict as key pair since it is MUTABLE
+
+
+Q4. difference between list.pop() and dict.pop()?
+--> 
+list.pop() - deletes last element from list
+dict.pop() - need to mention any KEY inside the liek dict.POP("ID") so key will be deleted
+
+
+Q5. how to get all the keys available in dictionary?
+--> .keys() method
+
+
+Q6. is list mutable?
+
+Q7. is list ordered?
+
+Q8. what is list index out of range?
+--> during iteration with the aid of LEN function - if found max number, it gives this error
+
+Q9. how to get last element of a list?
+--> using negative based indexing 
+
+Q10. how list comprehension works?
+--> new_list_var_name = ["output"      'for loop'     'if condition']
+
+Q11. is tuple mutable?
+--> no
+
+Q12. is tuple ordered?
+--> yes
+
+Q13. how to access element of tuple?
+--> using indexing -- tuple[2]
+
+Q14. how to add element in tuple?
+--> not possible but we extend the tuple with existing tuple
+
+Q15. how to reverse item of a tuple?
+--> [::-1]
+
+Q16. is set mutable?
+--> yes
+
+Q17. is set ordered?
+--> no
+
+Q18. if list is converted into set then will the order be maintained?
+--> no
+
+Q19. will set contain all the elements of a list it is created using a list?
+--> depends on the duplicate elements, if duplicates - all the elements won't created
+
+Q20. difference between -- list and tuple, list and set, set and dict, and tuple and set?
+--> 
+
+

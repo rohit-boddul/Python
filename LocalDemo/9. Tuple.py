@@ -51,6 +51,9 @@ logger.info(tuple(result))
 tuple1 = [10,2,3,5]
 tuple2 = [3,6,4,3]
 
+reverse_tup = tuple1[::-1]
+print(reverse_tup)
+
 final_tuple = []
 result = []
 for i in range(len(tuple1)):
