@@ -44,21 +44,20 @@ logger.info(float(a)+b)
 # USER INPUT --> 
 
 
-
 #1. area of the circle
-# logger.info("To calculate the Area of circle, please provide below values -")
-# radius_of_circle = float(input("Radius of the circle - "))
-# logger.info(type(radius_of_circle))
-# area_of_circle = 3.14159 * float (radius_of_circle) * float (radius_of_circle)
-# logger.info(f"Area of cirle = {area_of_circle} units sq.")
+logger.info("To calculate the Area of circle, please provide below values -")
+radius_of_circle = float(input("Radius of the circle - "))
+logger.info(type(radius_of_circle))
+area_of_circle = 3.14159 * float (radius_of_circle) * float (radius_of_circle)
+logger.info(f"Area of cirle = {area_of_circle} units sq.")
 
 # 2. Volume of cuboid
-# length = int(input("Enter length:"))
-# width = float(input("Enter Width:"))
-# height = int(input("Enter Height:"))
+length = int(input("Enter length:"))
+width = float(input("Enter Width:"))
+height = int(input("Enter Height:"))
 
-# vol_of_cuboid = length * width * height
-# logger.info(f"Volume of cuboid = {vol_of_cuboid} m.")
+vol_of_cuboid = length * width * height
+logger.info(f"Volume of cuboid = {vol_of_cuboid} m.")
 
 
 # 3. Addition of two numbers using split() function

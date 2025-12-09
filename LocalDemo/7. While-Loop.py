@@ -14,31 +14,31 @@ labours = ["Mithilesh", "Ayush", "Geeta", "Deepak"]
 # --------------------------------------- Calculator using WHILE loop -----------------------------------------#
 
 # Calculator using while loop
-# user_input = float(input("Enter the number: "))
-# operation = input("Choose the operation (+, -, *, /): ")
+user_input = float(input("Enter the number: "))
+operation = input("Choose the operation (+, -, *, /): ")
 
-# result = user_input 
+result = user_input 
 
-# while (operation != "="):
-#     user_input1 = float(input("Enter the other number: "))
+while (operation != "="):
+    user_input1 = float(input("Enter the other number: "))
 
-#     if operation == "+":
-#         result = result + user_input1
-#     elif operation == "-":
-#         result = result - user_input1
-#     elif operation == "*":
-#         result = result * user_input1
-#     elif operation == "/":
-#         if user_input1 == 0:
-#             logger.info(f"Error! - Division won't happen with 0")
-#             exit()
-#         else:
-#             result = result / user_input1
-#     else:
-#         logger.info(f"Intermediate = {result}")
-#     operation = input("Choose the operation (+, -, *, /): or Enter '=' to view the result: ")
+    if operation == "+":
+        result = result + user_input1
+    elif operation == "-":
+        result = result - user_input1
+    elif operation == "*":
+        result = result * user_input1
+    elif operation == "/":
+        if user_input1 == 0:
+            logger.info(f"Error! - Division won't happen with 0")
+            exit()
+        else:
+            result = result / user_input1
+    else:
+        logger.info(f"Intermediate = {result}")
+    operation = input("Choose the operation (+, -, *, /): or Enter '=' to view the result: ")
 
-# logger.info(f"Final Results = {result}")
+logger.info(f"Final Results = {result}")
 
 
 
