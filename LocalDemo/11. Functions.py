@@ -35,19 +35,113 @@ def total_grass (length, cost_per_grass):
 
 cost = total_grass(10, 0.5)
 logger.info(f"Cost needed for grass is {cost} per ft.")
+# -------------------------------------------------------------------------------------------------------------
+
+# FUNCTION
+
+# 1. self contained block, contains line of code and whenever we use same line of code, 
+# we simply use the name of function
+
+# ROLE of Function in DATA?
+# 1. data cleaning
+# 2. transforming and aggregating data
+
+
+def show():
+    logger.info("Hello!")
+show()
+
+# ------------------------------------------ Calculator Using Function ----------------------------------- #
+
+def calculator (var1, var2):
+    logger.info(f"Addition - {var1 + var2}")
+    logger.info(f"Subtraction - {var1 - var2}")
+
+calculator(10, 5)
+
+# WOP in python for function contains the calculator code having all operations, values need to be taken during 
+# run time
+
+def calc (value1, value2):
+    logger.info(f"Addition = {value1 + value2}")
+    logger.info(f"Subtraction = {value1 - value2}")
+    logger.info(f"Multiplication = {value1 * value2}")
+    logger.info(f"Division = {value1 / value2}")
+
+# a = float(input("Enter value1 = "))
+# b = float(input("Enter value2 = "))
+
+# result = calc(a, b)
+# ------------------------------------------------------------------------------------------------------- #
+
+# RETURN statement - 
+
+# WHY do we need to return the values from function?
+# -->
+# 1. it is exit status 
+# 2. kind of signal of function to OS that function is working fine
+# 3. with NO RETURN - return keyword 0, with RETURN - 1 
+
+
+def multiplication(v1, v2):
+    return v1 * v2
+
+result = multiplication (10, 5)
+logger.info(result)
+
+
+# Calculate two functions, 1 for volume of cuboid and 2nd for vol of cyl 
+
+def vol_cub (l, b, h):
+    return l * b * h
+
+vol_of_cuboid = vol_cub (10, 5, 8)
+
+def vol_cyl (pi, r, h):
+    return pi * r * r * h
+
+vol_of_cyl = vol_cyl(3.14, 5, 7)
+logger.info(f"Volume of Cuboid = {vol_of_cuboid} and Volume of Cyl = {vol_of_cyl}")
+# ------------------------------------------------------------------------------------------------------- #
+
+# DEFAULT argument into function - 
+# when you want to fix the argument
+
+def show1(name = 'RAJ'):
+    print(name)
+show()
+show('ROHIT')
 
 
 
 
-def cost_landing (land_length,land_breadth,home_length,home_breadth,garden_length,garden_breadth,psqftcost):
-    land_area = land_length * land_breadth
-    home_area = home_length * home_breadth
-    garden_area = garden_length * garden_breadth
-    cost_of_shaded_area = (land_area - home_area - garden_area) * psqftcost
-    return cost_of_shaded_area
 
-result = cost_landing(100,100,80,60,100,20,10)
-print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
