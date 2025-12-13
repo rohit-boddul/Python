@@ -65,7 +65,6 @@ logger.info(f"'{emp["name"]}' total salary is {emp["salary"]}/-")
 logger.info(f"'{emp["name"]}' city is '{emp["city"]}'")
 
 # ----------------------------------------------------------------------------------------------------------- #
-
 studentname = "   yOGesh  kumAR"
 marks1 =25 
 marks2 = 65 
@@ -79,13 +78,11 @@ email = "yoGESH    @G    mail.com"
 
 def studentnamecleanup(stname):
     return " ".join(stname.split()).strip().title()
-
 cleaned_name = studentnamecleanup(studentname)
 
 def total_marks_of_students (m1, m2, m3, m4, m5):
     total_marks = m1 + m2 + m3 + m4 + m5
     return total_marks
-
 total = total_marks_of_students(25, 65, 23, 45, 87)
 
 total_subjects = 5
@@ -93,7 +90,6 @@ total_subjects = 5
 def percentage(total_subjects, total_marks):
     percentage = ((total_marks/total_subjects))
     return percentage
-
 perc = percentage(total_subjects,total)
 
 def cleancity(cityname):
@@ -102,7 +98,6 @@ cleaned_city = cleancity(city)
 
 def cleanemail(emailid):
     return "".join(emailid.split()).strip().lower()
-
 cleaned_email = cleanemail(email)
 
 logger.info(f"After cleaning student name = '{cleaned_name}'")
